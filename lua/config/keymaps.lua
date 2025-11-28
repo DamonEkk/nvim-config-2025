@@ -2,7 +2,6 @@ local key = vim.keymap.set
 
 vim.g.mapleader = " "
 
--- Primeagen movement (center after n/N/search + join lines)
 key("n", "n", "nzzzv")
 key("n", "N", "Nzzzv")
 key("n", "J", "mzJ`z")
