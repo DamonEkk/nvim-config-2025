@@ -1,0 +1,11 @@
+-- lua/plugins/autopairs.lua
+return {
+  "windwp/nvim-autopairs",
+  config = function()
+    require("nvim-autopairs").setup({
+      check_ts = true,  -- integrate with Treesitter
+      fast_wrap = {},
+    })
+  end
+}
+
